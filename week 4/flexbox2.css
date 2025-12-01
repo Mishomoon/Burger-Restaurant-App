@@ -1,0 +1,55 @@
+body{
+  display: flex;
+  background:linear-gradient(to right, rgb(212, 101, 212),rgb(231, 96, 231));
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+ 
+}
+
+
+.container{
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  max-width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 10px black;
+
+
+}
+.content{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+ 
+}
+
+
+.content h1{
+margin: 0px;
+font-size: 15px;
+
+
+
+}
+.content p{
+margin:  2px 0 0 0;
+font-size: 15px;
+color: rgb(65, 63, 63);
+
+
+}
+
+.content img{
+border-radius: 50px;
+height: 70px;
+width: 70px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}

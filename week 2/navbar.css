@@ -1,0 +1,36 @@
+body{
+  background-color: lightgray;
+  margin: 0px;
+}
+
+.container{
+  display: flex;
+  background-color:rgb(1, 1, 39);
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  height: 60px; 
+  width: 100%; 
+  box-sizing: border-box; 
+
+  
+}
+
+.container h1{
+  color: rgb(8, 108, 222);
+}
+
+.text {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 50px;
+}
+.text h4 {
+  color: white;
+  margin: 50px;
+}
+.content{
+  font-size: 20px;
+}
