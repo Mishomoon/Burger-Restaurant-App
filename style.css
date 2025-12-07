@@ -96,10 +96,19 @@ body {
   position: relative;
   background-color: #f5e8df;
   padding: 30px 60px;
+  
 }
 
+.menu-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #7a2926;     
+  text-align: center;
+  margin-top: -20px;
+}
+
+
 .menu-search {
-  position:absolute;
   margin-top: 40px;
   display: flex;
   gap: 10px;
@@ -150,10 +159,40 @@ body {
   margin-bottom: 50px;
 }
 
-.category-dessert {
-  
-  margin-top: 50px; 
-  margin-bottom: 10px;
+.category-dessert { 
+  margin-top: 20px; 
+}
+
+.category-box:nth-child(2) .category-name {
+  margin-bottom: 50px; 
+}
+
+.category-box:nth-child(2) .category-desc {
+  margin-top: -170px; 
+}
+
+.category-drink{
+ margin-top: 70px;
+}
+
+.category-box:nth-child(3) .category-name {
+  margin-bottom: 40px; 
+}
+
+.category-box:nth-child(3) .category-desc {
+  margin-top: -130px; 
+}
+
+.category-sides{
+margin-top: 70px;
+}
+
+.category-box:nth-child(4) .category-name {
+  margin-top: 20px;
+}
+
+.category-box:nth-child(4) .category-desc {
+  margin-top: -134px;
 }
 
 
