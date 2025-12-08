@@ -1,93 +1,164 @@
 body {
-  background-color: #e1d6c4;
-}
-
-.menu-wrapper {
-  width: 100%;
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 20px 15px;
+    margin: 0;
+    padding: 0;
+    background-color: #F3EADD;
+    font-family: 'Cairo', sans-serif;
 }
 
 .menu-title {
-  margin-left:-120px;
-  font-size: 70px;
-  color: #7a2926;
-  margin-top: 130px;
-  font-family:'Alfa Slab One', serif;
-  white-space: nowrap;
+    font-family: 'Alfa Slab One';
+    font-size: 90px;       
+    font-weight: bolder;
+    color: #6C2829;
+    text-align: center;
+    margin-top: 150px;
+    text-shadow: 1px 1px 0 #4a1c1d;
 }
 
 .search-bar {
-    background-color: #6b1f1f;        
-    width: 750px;
-    padding: 20px 25px;
-    border-radius: 50px;
+    width: 90%;                
+    max-width: 600px;            
+    height: 95px;               
+    background-color: #6c2a2b;    
+    border-radius: 50px;         
+    margin: 20px auto;
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-left: -210px;
+    padding: 0 70px;  
+               
 }
 
 .search-bar input {
+    flex-grow: 1;                 
+    margin: 0 12px;             
     border: none;
-    background: none;
-    color: white;
-    font-size: 46px;
     outline: none;
-    margin-left: 20px;
+    background: none;
+    font-size: 40px;
+    font-family: 'Cairo', sans-serif;
 }
 
 .search-bar input::placeholder {
-    color: #e3d5c7; 
+    color: white;
 }
 
-.search-bar img {
-    width: 90px; 
-    height: 90px;
-    object-fit: contain;
+.icon-left {
+    width: 100px;
+    margin-left: -60px;
 }
 
-.left-icon {
-    margin-right: 5px;
-    cursor: pointer;
+.icon-right{
+    width: 100px;
+    margin-right: -60px;
 }
 
-.right-icon {
-    margin-left: -40px;
-    cursor: pointer;
+.categories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    padding: 10px 20px 120px; 
+    margin-top: 90px; 
+    margin-left: 40px;
 }
 
-.category-card {
-    width: 320px;
-    height: 320px;
-    background-color:#f3eadd; 
+.category-box {
+    background-color: #e0d1c0;
     border-radius: 15px;
-    padding: 15px;
+    padding: 10px 1px;
     text-align: center;
-    font-family: 'Alfa Slab One', serif; 
-    margin-top: 90px;
-    margin-left: -200px;
+    margin-bottom: 100px;
+    width: 400px;
+    height: 350px;
+
 }
 
-.category-img {
+.category-img-box {
+    width: 20px;
+    height: 210px;
+    margin: 0 auto 10px;          
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-icon {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;          
+}
+
+.category-box h3 {
+    font-family: 'Alfa Slab One';
+    font-size: 18px;
+    color: #8a3b15;
+    margin: 0;
+}
+
+.category-box p {
+    font-family: 'Cairo';
+    font-size: 13px;
+    color: #5a3925;
+    margin-top: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-nav {
+    position: fixed;
+    bottom: 1px;
+    left: 0;
     width: 100%;
-    height: auto;
-    border-radius: 12px;
-    margin-top: -140px;
+    height: 230px;
+    background-color: #F3EADD;   
+    border-top: 2px solid #484747; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.category-title {
-    font-size: 35px;
-    color: #c16e0d; 
-    margin-top: -60px;
+.nav-item {
+    text-align: center;
 }
 
-.category-sub {
-    font-family: 'Cairo', sans-serif; 
-    font-size: 25px;
-    color: #5a4b43;
-    margin-top: -33px;
+.nav-item img {
+    width: 90px;    
 }
- 
+
+.nav-item p {
+    margin: 10px 0 0;
+    font-size: 50px;
+    color: #7A3B27;   
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: -30px;
+}
+
+
+.home-btn img {
+    width: 150px;
+    height: 150px;
+    background-color: #6D1E1F;
+    padding: 12px;
+    border-radius: 50%;
+    margin-top: -70px;
+}
 
