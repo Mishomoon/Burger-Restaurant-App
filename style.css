@@ -298,10 +298,54 @@ body {
     margin-top: -70px;
 }
 
-.phone-container {
-    width: 430px;      /* phone width */
-    margin: 0 auto;    /* center in desktop */
+
+
+
+
+
+
+
+/* Item css  */
+
+/* ITEM PAGE BACKGROUND */
+.item-page {
     background-color: #F3EADD;
-    min-height: 100vh;
-    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+/* BACK ARROW */
+.top-bar {
+    padding: 40px;
+}
+
+.back-arrow {
+    width: 80px; 
+}
+
+/* BURGER IMAGE */
+.item-image {
+    width: 420px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+/* TITLE */
+.item-title {
+    font-family: 'Alfa Slab One';
+    font-size: 70px;
+    color: #C16E0D;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.item-description {
+    font-family: 'Cairo';
+    font-size: 36px;
+    color: #5a3925;
+    text-align: center;
+    padding: 0 70px;
+    margin-top: -10px;
 }
