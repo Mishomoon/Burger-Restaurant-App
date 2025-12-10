@@ -427,56 +427,49 @@ body {
 
 /* SHOPPING CART CSS */
 
-.cart-page {
-    background-color: #F3EADD;
+/* WHITE CONTAINER */
+.white-box {
+    width: 1000px;
+    height: 600px;
+    background-color: #ffffff;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    margin-top: -90px;
 }
 
-.cart-top {
-    background-color: #ffffff;
-    padding: 40px;
-    border-radius: 0 0 30px 30px;
-    text-align: center;
-    position: relative;
-    height: 350px;
+
+/* TOP BAR */
+.top-bar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 10px;
 }
 
 .back-arrow {
-    width: 60px;
-    position: absolute;
-    left: 30px;
-    top: 30px;
+    width: 70px;
+    margin-bottom: -130px;
 }
 
 .top-menu-text {
-    position: absolute;
-    left: 120px;
-    top: 10px;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 45px;
     color: #6C2829;
+    font-family: 'Cairo';
+    font-weight: 600;
+    margin-bottom: -120px;
 }
 
-.cart-burger-img {
-    width: 480px;
-    display: block;
-    margin: 30px auto;
-    margin-top: -30px;
-    margin-left: 480px;
-}
 
-.top-menu-text {
-    font-size: 40px;
-    color: #6C2829;
-}
-
-/* PRICE TOP RIGHT */
+/* PRICE (TOP RIGHT) */
 .price-row {
-    width: 100%;
     display: flex;
     justify-content: flex-end;
-    gap: 15px;
-    padding: 0 40px;
-    margin-top: -20px;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+    padding-right: 15px;
 }
 
 .price {
@@ -486,28 +479,34 @@ body {
 }
 
 .currency {
-    font-size: 45px;
+    font-size: 40px;
     color: #6C2829;
-    margin-top: 10px; /* moves EUR alone */
+    margin-top: 70px; /* moves EUR alone */
 }
+
 
 /* BURGER IMAGE */
 .cart-burger-img {
-    width: 350px;
-    margin-top: -20px;
+    width: 470px;
+    display: block;
+    margin-left: 450px;
 }
+
 
 /* TITLE */
 .cart-title {
     font-family: 'Alfa Slab One';
     font-size: 65px;
     color: #C16E0D;
-    text-align: center;
-    margin-top: 20px;
+    margin-top: -400px;
+    margin-left: -5px;
 }
+
+
+/* PERSONALIZE TEXT */
 .personalize-text {
     font-size: 34px;
     color: #5a3925;
-    margin-left: 40px;
     margin-top: 30px;
+    margin-left: 10px;
 }
